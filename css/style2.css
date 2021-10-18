@@ -1,0 +1,85 @@
+body {
+    display: block;
+    font-family: Verdana, sans-serif;
+    color: #06389e;
+    background-color: #e6e6e6;
+    width: 800px;
+    margin:0 auto;
+}
+table {
+    border-collapse: collapse; /*cellspacing="0"*/
+    border-spacing: 0;
+    padding: 0; /*cellpadding="0"*/
+    width: 800px;
+}
+td {
+    padding: 0;
+}
+h2, h3, h4 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #494d56;
+}
+#top {
+    background-color: #6699ff;
+    border-top: 4px solid #6699FF;
+    border-left: 4px solid #6699FF;
+    text-align: center;
+}
+.image {
+    width: 100px;
+}
+#top td img {
+    height: 187px;
+    width: 100px;
+}
+.list {
+    border: 3px solid #6699FF;
+}
+#shapka, #slogan {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+#slogan {
+    padding: 5px 0;
+}
+.foot {
+    color: white;
+    font-size: 0.6em;
+    text-align: center;
+    background-color: #6699ff;
+    border-top: 3px solid #6699ff;
+}
+.foot a {
+    text-decoration: none;
+    font-size: 0.8em;
+    color: white;
+}
+ul, .content {
+    font-size: 0.7em;
+}
+ul {
+    font-family: Tahoma, sans-serif;
+    letter-spacing: 1px;
+    line-height: 1.5em;
+}
+.content {
+    padding: 10px 15px;
+    text-align: justify;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+}
+.content a {
+    text-decoration: none;
+    color: #494d56;
+    font-weight: bolder;
+}
+ol {
+    font-size: 0.8em;
+}
+ol li a {
+    color: gray;
+}
+
